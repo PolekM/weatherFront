@@ -1,0 +1,6 @@
+{
+    "/weather": {
+      "target": "https://weatherbackend-08jf.onrender.com/",
+      "secure": false
+    }
+  }

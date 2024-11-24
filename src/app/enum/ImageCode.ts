@@ -1,6 +1,6 @@
 export enum ImageCode{
     //clear Sky - Sunny
-    SunnyCode1 =1,
+    SunnyCode1 =1 ,
     //cloud
     cloudCode2 =2,
     cloudCode3 =3,

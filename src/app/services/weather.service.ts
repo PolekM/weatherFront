@@ -9,7 +9,7 @@ import { WeatherWeekResponse } from '../model/WeatherWeekResponse';
 })
 export class WeatherService {
 
-  apiBaseUrl:String = 'https://weatherbackend-08jf.onrender.com';
+  apiBaseUrl:String = 'https://weatherbackend-08jf.onrender.com/weather';
   constructor(private http: HttpClient) {}
 
   public getWeatherWeek(latitude: number, longitude:number): Observable<WeatherWeekResponse>{
