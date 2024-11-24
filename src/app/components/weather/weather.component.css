@@ -1,0 +1,12 @@
+td {
+    text-align: center;
+  
+}
+th{
+    text-align: center;
+}
+.custom-table tr, .custom-table th, .custom-table td {
+    padding: 0.3rem 0.5rem; 
+    line-height: 1rem;      
+}
+

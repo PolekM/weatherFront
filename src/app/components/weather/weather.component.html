@@ -1,0 +1,22 @@
+<p-table [value]="weatherWeek.weatherDays" [tableStyle]="{'min-width': '20rem'}"class="custom-table">
+
+    <ng-template pTemplate="header">
+        <tr>
+            <th>Date</th>
+            <th>Weather Code</th>
+            <th>Min Temp</th>
+            <th>Max Temp</th>
+            <th>Generated Energy</th>
+        </tr>
+    </ng-template>
+    <ng-template pTemplate="body" let-weather>
+        <tr>
+            <td>{{ weather.date}}</td>
+            <td><p-image [src]="getImageSrc(weather.Code)" width="70" /></td>
+            <td>{{ weather.minTemp}}</td>
+            <td>{{ weather.maxTemp}}</td>
+            <td>{{ weather.generatedEnergy}}</td>
+      
+        </tr>
+    </ng-template>
+</p-table>

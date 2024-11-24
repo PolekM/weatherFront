@@ -1,0 +1,10 @@
+
+::ng-deep .p-panel-content{
+    text-align: center;
+}
+
+::ng-deep .p-panel-title {
+    flex: 1; 
+    text-align: center; 
+}
+
